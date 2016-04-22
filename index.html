@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <title>Cirda skvělý pes</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Hege Refsnes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><!--ošetření aby se necpali na web robotové-->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top"> <!--ukotvení menu na stálé zobrazení-->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cirda pašák</a> <!--zobrazení loga-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#interests">Profil</a></li>
+            <li><a href="#join">Úspěchy</a></li>
+            <li><a href="#psinec">Novinky</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right"> <!--oddělení menu na další část-->
+            <li><a href="#contact"><img src="img/user-photo.jpg" class="img-circle" width=30 height=30 />Napište mi</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li> <!--musí mít data-target podle id slideru a musí se začít číslovat od 0-->
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img class="first-slide" src="img/cirda-head.jpg" alt="Cirda vítězný">
+        <div class="container">
+        <div class="carousel-caption">
+          <h1>Cirda se představuje jako vítěz</h1>
+          <p>Výstavní německý ovčak chovné kvality</p>
+        </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide" src="img/cirda-head2.jpg" alt="Cirda s paničkou">
+        <div class="container">
+        <div class="carousel-caption">
+          <h1>Cirda se svou paničkou</h1>
+          <p>Výstavní německý ovčák miluje pracovat na 100%</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="interests" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="text-center">Cirda jako fenomén</h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="interest-wrapper">
+            <i class="fa fa-codepen fa1" aria-hidden="true"></i>
+            <h3>Profil</h3>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="interest-wrapper">
+            <i class="fa fa-leaf fa2" aria-hidden="true"></i>
+            <h3>Výstavy</h3>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="interest-wrapper">
+            <i class="fa fa-diamond fa3" aria-hidden="true"></i>
+            <h3>Zkoušky</h3>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="join" class="container-fluid">
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join1">
+        <span class="join-info">Pojď dělat štěňátka<br /><a href="http://pyladies.cz/" target="_blank">... šup ... šup</a>
+        </span>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join2">
+        <span class="join-info">Potěšení na Cirdově straně<br /><a href="http://www.czechitas.cz/" target="_blank">galerie úspěchů</a>
+        </span>
+      </div>
+    </div>
+  </section>
+  <section id="Psinec" class="container">
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>Psinec - příběhy a novinky z psího života</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 psinec">
+        <br />
+        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
+        <br />
+        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <h2>Kontaktní formulář</h2><br />
+        </div>
+      </div>
+      <div class="form-section row">
+        <div class="form-wrapper col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <form method="POST" action="php/contakt.php" name="contact-form" role="form">
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <div class="form-group">
+                    <input type="text" placeholder="Celé jméno" id="name" class="form-control" name="name" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" id="email" class="form-control" name="email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Předmět" id="subject" class="form-control" name="subject" required="">
+                </div>
+              </div>
+              <div class="col-md-8 col-lg-8">
+                <div class="form-group">
+                  <textarea placeholder="Správa" rows="6" id="message" class="form-control" name="message" required=""></textarea> <!--parametr rows="6" je určení, kolik řádků se daný ojekt zobrazí - výška elementu-->
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 text-center contact-button">
+              <button class="btn-primary btn-contact btn-block" name="submit" type="submit">Odeslat</button>
+            </div>
+            <div class="col-md-8 col-lg-8 text-right">
+              Pole označené hvězdičkou jsou povinné.
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer id="footer" class="container">
+    <div class="row paticka">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="list-inline pull-left">
+          <li>&copy; Petr Bek - 2016 </li>
+          <li><a href="mailto:invik@seznam.cz">invik@seznam.cz</a></li>
+        </ul>
+        <ul class="list-inline text-center">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square ff-" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square ff-" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-google-plus-square ff-" aria-hidden="true"></i></a></li>
+        </ul>
+        <p class="pull-right"><a href="#">Zpět nahoru</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+  crossorigin="anonymous">
+  </script>
+
+</body>
+</html>
