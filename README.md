@@ -1,2 +1,3 @@
 # htmlkurz2016
-pokus o jiný přístup k webu
+
+http://stud3nt1k.github.io/htmlkurz2016/
